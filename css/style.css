@@ -1,0 +1,38 @@
+.menu1{
+
+}
+.menu1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+.menu1 li {
+  float: left;
+}
+
+.menu1 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu1 li a:hover {
+  background-color: white;
+  color: black;
+}
+.bgi{
+    /*background-image: url('img/anh1.jpg');*/
+    height: 50px;
+    color: #99ff66;
+  }
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu1, .bgi{
+    width:100%;
+  }
+}
